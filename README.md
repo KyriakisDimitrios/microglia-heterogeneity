@@ -54,9 +54,8 @@ Since we focus here on the microglia, we subset the data and keep only the cells
 </figure>
 
 <figure>
-    <img src="Plots/DF_Micro_1.png" alt="some text">
-    <img src="Plots/DF_Micro_2.png" alt="some text">
-    <img src="Plots/DF_Micro_2_Cond.png" alt="some text">
+    <img src="Plots/DF_Micro_1.png" alt="some text" width=45%>
+    <img src="Plots/DF_Micro_2.png" alt="some text" width=45%>
     <figcaption>Fig.2: Heatmap of the differentially expressed genes. A) Differentially expression analysis between the microglia subpopulations. b) Differentially expression analysis between the striatum and midbrain.</figcaption>
 </figure>
 
