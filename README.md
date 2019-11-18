@@ -14,7 +14,7 @@ R code to preprocess single-cell RNA-seq data from scratch can be found in the s
 
 #### Figures
 
-<img src="Plots/2019-11-14_MBSYN_tsne.pdf" alt="some text"  width="4200" height="4200">
+<img src="Plots/Data.png" alt="some text"  width="4200" height="4200">
 <img src="Plots/2019-11-14_MBSYN_tsne.pdf">
 
 
