@@ -14,8 +14,7 @@ R code to preprocess single-cell RNA-seq data from scratch can be found in the s
 
 #### Figures
 
-<img src="Plots/Data.png" alt="some text"  width="4200" height="4200">
-<img src="Plots/2019-11-14_MBSYN_tsne.pdf">
+<img src="Plots/Data.png" alt="some text">
 
 
 We additionally provide scripts to reproduce most of the main figures. The R code can be found in the figure_src directory and is split into individual files. Figures can be recreated without the need of preprocessing the data.
