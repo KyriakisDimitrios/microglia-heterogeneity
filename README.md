@@ -13,7 +13,7 @@ For requirements, please see the file RNA-seq_sessionInfo.txt for specific R pac
 R code to preprocess single-cell RNA-seq data from scratch can be found in the src directory. Steps (e.g. quality control, filtering, normalization, etc.) should be run in the order indicated by the leading counter in the filename (e.g. )
 
 #### Figures
-<img src="myFirstAlignment2.pdf" alt="some text"  width="4200" height="4200">
+<img src="Plots/2019-11-14_MBSYN_tsne.pdf" alt="some text"  width="4200" height="4200">
 
 \begin{center} <br>
 \includegraphics[width=8in]{myFirstAlignment2.pdf} <br>
