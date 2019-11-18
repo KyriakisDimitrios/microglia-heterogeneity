@@ -10,7 +10,7 @@ For requirements, please see the file RNA-seq_sessionInfo.txt for specific R pac
 
 #### Preprocessing
 
-R code to preprocess single-cell RNA-seq data from scratch can be found in the src directory. Steps (e.g. quality control, filtering, normalization, etc.) should be run in the order indicated by the leading counter in the filename (e.g. 00_filtering.R before 01_normalisation.R)
+R code to preprocess single-cell RNA-seq data from scratch can be found in the src directory. Steps (e.g. quality control, filtering, normalization, etc.) should be run in the order indicated by the leading counter in the filename (e.g. )
 
 #### Figures
 
