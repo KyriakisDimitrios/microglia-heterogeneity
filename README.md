@@ -22,7 +22,7 @@ Figures can be recreated without the need of preprocessing the data. **NOT READY
 
 Please refer to the following research article when using data from this repository:
 
-O. Uriarte, D. Kyriakis, T. Heurtaux, K. Grzyb, R. Halder, M. Buttini, A. Skupin, M. Mittelbronn& A. Michelucci
+O. Uriarte
 
 
 ## Overview
