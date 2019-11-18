@@ -14,7 +14,9 @@ R code to preprocess single-cell RNA-seq data from scratch can be found in the s
 
 #### Figures
 
-We additionally provide scripts to reproduce most of the main figures. The R code can be found in the figure_src directory and is split into individual files. Figures can be recreated without the need of preprocessing the data.
+We additionally provide scripts to reproduce most of the main figures.
+The R code can be found in the figure_src directory and is split into individual files.
+Figures can be recreated without the need of preprocessing the data. **NOT READY YET**
 
 ### Citation
 
