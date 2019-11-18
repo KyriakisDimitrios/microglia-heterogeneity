@@ -14,6 +14,10 @@ R code to preprocess single-cell RNA-seq data from scratch can be found in the s
 
 #### Figures
 
+\begin{center} <br>
+\includegraphics[width=8in]{myFirstAlignment2.pdf} <br>
+\end{center}
+
 We additionally provide scripts to reproduce most of the main figures. The R code can be found in the figure_src directory and is split into individual files. Figures can be recreated without the need of preprocessing the data.
 
 
