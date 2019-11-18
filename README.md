@@ -45,6 +45,7 @@ Since we focus here on the microglia, we subset the data and keep only the cells
   <img src="Plots/DF_Clusters.png" alt="some text" width=45%>
   <img src="Plots/Heat_Cell_Markes.png" alt="Heat_Cell_Markes" width=45%>
   <img src="Plots/Barplot.png" alt="some text" width=45%>
+  <img src="Plots/Bar_Plots.png" alt="some text" width=45%>
   <figcaption>Fig.1: Two-dimensional t-SNE plot of 1036 individual cells at two different regions of mouse brain. Each dot represents a single cell.  
   a) The colors correspond to different regions of the mouse brain. 
   b) t-SNE plot where the colors correspond to eight different clusters. 
