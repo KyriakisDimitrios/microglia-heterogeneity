@@ -40,6 +40,7 @@ We used Seurat v3.1 for the analysis of the gene expression matrix. We merged th
 In order to recover the cell type identity of each cluster we performed one unsupervised and one supervised workflow.  In the former, we performed a differential expression analysis between the clusters. The genes that popped up as differentially expressed, were searched in literature and we linked them with specific cell types (Fig1 d). In the latter one, we used known cell specific markers (Fig1 e).  These two workflows let us assign each cluster to cell types (Fig1 c,f). 
 
 <img src="Plots/DF_Clusters.png" alt="some text">
+<img src="Plots/Heat_Cell_Markes.png" alt="Heat_Cell_Markes">
 <img src="Plots/Barplot.png" alt="some text">
 
 Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia. We re-project and cluster these cells. This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) seems to express also oligodendrocyte markers so we filtered out the four cluster. Then we performed differential expression analysis between the brain regions (Fig2, b).
