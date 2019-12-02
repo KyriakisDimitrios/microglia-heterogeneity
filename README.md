@@ -7,6 +7,7 @@
 #### R session information
 
 For requirements, please see the file RNA-seq_sessionInfo.txt for specific R packages and their versions.
+Something to add
 
 #### Preprocessing
 
