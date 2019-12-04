@@ -108,6 +108,8 @@ USING MONOCLE<br>
 "CSF1"  "OK"    "negbinomial.size"  2.09939470193106e-06    0.00104542080620234 "CSF1"<br>
 <br><br>
 USING SEURAT<br>
+"p_val" "avg_logFC" "pct.1" "pct.2" "p_val_adj" "cluster"   "gene"  "qvalue" <br>
+
 0.00617135162185148 0.404239157791022   0.711   0.709   1   "2" "LGMN"  0.129730086103788<br>
 
 
