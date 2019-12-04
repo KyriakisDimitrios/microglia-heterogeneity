@@ -61,12 +61,9 @@ In order to recover the cell type identity of each cluster we performed one unsu
 </figure>
 
 <figure>
-    <img src="Plots/DF_Micro_1.png" alt="some text" width=45%>
-    <img src="Plots/DF_Micro_2.png" alt="some text" width=45%>
-    <img src="Plots/DF_Micro_2_Cond.png" alt="some text" width=45%>
-    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
-    a-b) Differentially expression analysis between the microglia subpopulations. 
-    d) Differentially expression analysis between the striatum and midbrain.</figcaption>
+    <img src="Plots/Garnett.png" alt="some text" width=45%>
+    <figcaption>t-SNE plot where the colors correspond to garnett cell identity assignment using as cell type markers (**Oligodendrocytes:** Mog, Mag, Plp1, Mbp, Ermn, Enpp6, Pdgfra, Olig1, Olig2, Cspg4 , **Astrocytes:** Slc1a2, Aqp4, Gja1, **Microglia:** Tmem119, P2ry13, Aif1, Cts3, Cx3Xr1, **Neurons:** Syn1, Gad1, Gad2, Th, Meg3, Slc17a6
+, **Endothelial:** Pecam1, Dcn, Igfbpl1, **Ependymal:** Igf2, Ccdc153).</figcaption>
 </figure>
 
 
