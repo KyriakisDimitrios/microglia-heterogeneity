@@ -79,11 +79,21 @@ We filtered out the fourth cluster from the further analysis. Then we performed 
 **&ast;<span style="color:red">The differential expression analysis was based on counts and not on the intergraded data, as suggesterd in https://satijalab.org/seurat/faq.html FAQ4</span>.**
 
 
+<figure>
+    <img src="Plots/Microglia1.png" alt="some text" width=45%>
+    <img src="Plots/DF_Micro_1.png" alt="some text" width=45%>
+    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
+    a) tSNE projection of Microglia 
+    b) Differentially expression analysis between the microglia subpopulations.</figcaption>
+</figure>
+
+
 
 #### Differential Expression Between Clusters
 <figure>
     <img src="Plots/DF_Micro_Seurat.png" alt="some text" width=45%>
     <img src="Plots/DF_Micro_Monocle.png" alt="some text" width=45%>
+    <img src="Plots/Barplot_Homeostatic.png" alt="some text" width=45%>
     <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
     a) Differentially expression analysis between the microglia subpopulations using Seurat order on the average logfc. 
     b) Differentially expression analysis between the microglia subpopulations using Seurat order on the average qvalue.</figcaption>
@@ -91,10 +101,11 @@ We filtered out the fourth cluster from the further analysis. Then we performed 
 
 #### Differential Expression Between Conditions
 
-
-
-
-
+<figure>
+    <img src="Plots/DF_Cond_Micro_Seurat.png" alt="some text" width=45%>
+    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
+    a) Differentially expression analysis between brain regions order by logfoldChange.</figcaption>
+</figure>
 
 
 
