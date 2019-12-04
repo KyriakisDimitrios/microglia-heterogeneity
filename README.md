@@ -31,7 +31,7 @@ O. Uriarte
 
 
 ### Quality control
-
+(**Folder: QC**)
 We filtered out the low quality cells and genes separately in each data set. We defined cells as low-quality, based on three criteria for each cell.  The number of the genes that expressed is more than 200 and 2 median-absolute- deviations (MADs) above the median, the total number of counts is 3 MADs above or below the median and the percentage of counts to mitochondrial genes is 1.5 median-absolute- deviations (MADs) above the median. Cells failing at least two criterion were considered as low quality cells and filtered out from further analysis (Sup. Fig1). Similar to the cell filtering, we filtered out the low quality genes that been expressed in less than 10 cells in the data.
 
 
@@ -40,8 +40,8 @@ We filtered out the low quality cells and genes separately in each data set. We 
 We used Seurat v3.1 for the analysis of the gene expression matrix. We merged the gene expression matrices from striatum and midbrain. After the filtering, the count data of 1337 cells and 13446 genes was used for the downstream analysis. To identify the different cell types, we clustered the cells and visualized clusters using a t-distributed stochastic neighbor embedding (t-SNE) plot (Fig. 1 b). The resolution for the Louvain clustering, selected based on the silhouette score performance of different resolutions. This revealed eight main clusters. 
 
 ### Cell Identity
-
-In order to recover the cell type identity of each cluster we performed one unsupervised and one supervised workflow.  In the former, we performed a differential expression analysis between the clusters. The genes that popped up as differentially expressed, were searched in literature and we linked them with specific cell types (Fig1 d). In the latter one, we used known cell specific markers (Fig1 e).  These two workflows let us assign each cluster to cell types (Fig1 c,f). 
+(**Folder: Cell Types, DF_Clusters, Garnett**)
+In order to recover the cell type identity of each cluster we performed one unsupervised and one supervised workflow.  In the former, we performed a differential expression analysis between the clusters. The genes that popped up as differentially expressed, were searched in literature and we linked them with specific cell types (Fig1 d). In the latter one, we used known cell specific markers (Fig1 e).  These two workflows let us assign each cluster to cell types (Fig1 c,f).  In the folder DF_Clusters there are also barplots for the 3top markers for each cluster.
 
 
 <figure>
@@ -68,8 +68,9 @@ In order to recover the cell type identity of each cluster we performed one unsu
 
 
 ### Microglia Subpopulations
+(**Folder: Microglia_Analysis_intergraded**)
 Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia.
-We re calculate the most variable genes only in microglia population and then re-project and cluster these cells. 
+We re calculate the most variable genes only in microglia population and then re-project and cluster these cells. (**Folder: Microglia_Analysis_intergraded**)
 This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) seems to express also oligodendrocyte markers. This also supported by the assignment of the cell identities using garnett.
 
 **&ast;<span style="color:red">The differential expression analysis was based on counts and not on the intergraded data, as suggesterd in https://satijalab.org/seurat/faq.html FAQ4</span>.**
@@ -118,5 +119,9 @@ USING SEURAT<br>
     <figcaption>Fig.2: Heatmap of the differentially expressed genes between brain regions order by logfoldChange.</figcaption>
 </figure>
 
+
+
+### Another workflow
+WE used also the counts (which is not suggested) in order to project the data. This analysis is in the Folder (**Folder: Microglia_Analysis_counts**)
 
 
