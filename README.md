@@ -50,14 +50,14 @@ In order to recover the cell type identity of each cluster we performed one unsu
   <img src="Plots/Heat_Cell_Markes.png" alt="Heat_Cell_Markes" width=45%>
   <img src="Plots/Barplot.png" alt="some text" width=45%>
   <img src="Plots/Bar_Plots.png" alt="some text" width=45%>
-  <figcaption>Fig.1: Two-dimensional t-SNE plot of 1036 individual cells at two different regions of mouse brain. Each dot represents a single cell.  
-  a) The colors correspond to different regions of the mouse brain. 
-  b) t-SNE plot where the colors correspond to eight different clusters. 
-  c) The colors correspond to different cell types, which were assigned based on specific cell markers. 
-  d) Heat map of the top 15 differentially expressed genes for each cluster. 
-  e) Heat map using specific cell type markers.
-  f) Bar plot of cell type markers of each cell, colored based on the different cell types.
-  g) Bar plot of with the number of cells from the different brain regions per clusters.</figcaption>
+  <figcaption><b>Fig.1:</b> Two-dimensional t-SNE plot of 1036 individual cells at two different regions of mouse brain. Each dot represents a single cell.  
+  <b>a)</b> The colors correspond to different regions of the mouse brain. 
+  <b>b)</b> t-SNE plot where the colors correspond to eight different clusters. 
+  <b>c)</b> The colors correspond to different cell types, which were assigned based on specific cell markers. 
+  <b>d)</b> Heat map of the top 15 differentially expressed genes for each cluster. 
+  <b>e)</b> Heat map using specific cell type markers.
+  <b>f)</b> Bar plot of cell type markers of each cell, colored based on the different cell types.
+  <b>g)</b> Bar plot of with the number of cells from the different brain regions per clusters.</figcaption>
 </figure>
 
 <figure>
@@ -71,7 +71,6 @@ In order to recover the cell type identity of each cluster we performed one unsu
 Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia.
 We re calculate the most variable genes only in microglia population and then re-project and cluster these cells. 
 This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) seems to express also oligodendrocyte markers. This also supported by the assignment of the cell identities using garnett.
-We filtered out the fourth cluster from the further analysis. Then we performed differential expression analysis between the clusters and the brain regions (Fig2, b). 
 
 **&ast;<span style="color:red">The differential expression analysis was based on counts and not on the intergraded data, as suggesterd in https://satijalab.org/seurat/faq.html FAQ4</span>.**
 
@@ -79,11 +78,12 @@ We filtered out the fourth cluster from the further analysis. Then we performed 
 <figure>
     <img src="Plots/Microglia1.png" alt="some text" width=45%>
     <img src="Plots/DF_Micro_1.png" alt="some text" width=45%>
-    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
-    a) tSNE projection of Microglia 
-    b) Differentially expression analysis between the microglia subpopulations.</figcaption>
+    <figcaption><b>Fig.?:</b> Heatmap of the differentially expressed genes. 
+    <b>a)</b> tSNE projection of Microglia 
+    <b>b)</b> Differentially expression analysis between the microglia subpopulations.</figcaption>
 </figure>
 
+We filtered out the fourth cluster from the further analysis. Then we performed differential expression analysis between the clusters and the brain regions (Fig2, b). 
 
 
 #### Differential Expression Between Clusters
@@ -91,17 +91,16 @@ We filtered out the fourth cluster from the further analysis. Then we performed 
     <img src="Plots/DF_Micro_Seurat.png" alt="some text" width=45%>
     <img src="Plots/DF_Micro_Monocle.png" alt="some text" width=45%>
     <img src="Plots/Barplot_Homeostatic.png" alt="some text" width=45%>
-    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
-    a) Differentially expression analysis between the microglia subpopulations using Seurat order on the average logfc. 
-    b) Differentially expression analysis between the microglia subpopulations using Seurat order on the average qvalue.</figcaption>
+    <figcaption><b>Fig.?:</b> Heatmap of the differentially expressed genes. 
+    <b>a)</b> Differentially expression analysis between the microglia subpopulations using Seurat order on the average logfc. 
+    <b>b)</b> Differentially expression analysis between the microglia subpopulations using Seurat order on the average qvalue.</figcaption>
 </figure>
 
 #### Differential Expression Between Conditions
 
 <figure>
     <img src="Plots/DF_Cond_Micro_Seurat.png" alt="some text" width=45%>
-    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
-    a) Differentially expression analysis between brain regions order by logfoldChange.</figcaption>
+    <figcaption>Fig.2: Heatmap of the differentially expressed genes between brain regions order by logfoldChange.</figcaption>
 </figure>
 
 
