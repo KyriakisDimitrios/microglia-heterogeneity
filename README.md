@@ -71,4 +71,30 @@ In order to recover the cell type identity of each cluster we performed one unsu
 
 
 ### Microglia Subpopulations
-Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia. We re-project and cluster these cells. This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) seems to express also oligodendrocyte markers so we filtered out from the further analysis. Then we performed differential expression analysis between the brain regions (Fig2, b).
+Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia.
+We re calculate the most variable genes only in microglia population and then re-project and cluster these cells. 
+This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) seems to express also oligodendrocyte markers. This also supported by the assignment of the cell identities using garnett.
+We filtered out the fourth cluster from the further analysis. Then we performed differential expression analysis between the clusters and the brain regions (Fig2, b). 
+
+**&ast;<span style="color:red">The differential expression analysis was based on counts and not on the intergraded data, as suggesterd in https://satijalab.org/seurat/faq.html FAQ4</span>.**
+
+
+
+#### Differential Expression Between Clusters
+<figure>
+    <img src="Plots/DF_Micro_Seurat.png" alt="some text" width=45%>
+    <img src="Plots/DF_Micro_Monocle.png" alt="some text" width=45%>
+    <figcaption>Fig.2: Heatmap of the differentially expressed genes. 
+    a) Differentially expression analysis between the microglia subpopulations using Seurat order on the average logfc. 
+    b) Differentially expression analysis between the microglia subpopulations using Seurat order on the average qvalue.</figcaption>
+</figure>
+
+#### Differential Expression Between Conditions
+
+
+
+
+
+
+
+
