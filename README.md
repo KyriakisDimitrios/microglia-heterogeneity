@@ -94,19 +94,20 @@ We filtered out the fourth cluster from the further analysis. Then we performed 
     <b>a)</b> Differentially expression analysis between the microglia subpopulations using Seurat order on the average logfc. 
     <b>b)</b> Differentially expression analysis between the microglia subpopulations using Seurat order on the average qvalue.</figcaption>
 </figure>
-
+<br><br><br>
 Also, I selected these genes to see the expression of them. Clearly there is a pattern. In monocle some of them poped up as df using the qvalue as criterion of significance, and thery are not the top ones.
+<br>
 <img src="Plots/Barplot_Homeostatic.png" alt="some text" width=45%>
 
-USING MONOCLE
-       "status"    "family"    "pval"  "qval"  "gene_short_name"
-"LGMN"  "OK"    "negbinomial.size"  8.31768090541528e-06    0.00319517770780881 "LGMN"
-"P2RY12"    "OK"    "negbinomial.size"  5.28026686435796e-06    0.0022901028384288  "P2RY12"
-"FCRLS" "OK"    "negbinomial.size"  9.85748011699133e-08    6.97546421962886e-05    "FCRLS"
-"CSF1"  "OK"    "negbinomial.size"  2.09939470193106e-06    0.00104542080620234 "CSF1"
-
-USING SEURAT
-0.00617135162185148 0.404239157791022   0.711   0.709   1   "2" "LGMN"  0.129730086103788
+USING MONOCLE<br>
+       "status"    "family"    "pval"  "qval"  "gene_short_name"<br>
+"LGMN"  "OK"    "negbinomial.size"  8.31768090541528e-06    0.00319517770780881 "LGMN"<br>
+"P2RY12"    "OK"    "negbinomial.size"  5.28026686435796e-06    0.0022901028384288  "P2RY12"<br>
+"FCRLS" "OK"    "negbinomial.size"  9.85748011699133e-08    6.97546421962886e-05    "FCRLS"<br>
+"CSF1"  "OK"    "negbinomial.size"  2.09939470193106e-06    0.00104542080620234 "CSF1"<br>
+<br><br>
+USING SEURAT<br>
+0.00617135162185148 0.404239157791022   0.711   0.709   1   "2" "LGMN"  0.129730086103788<br>
 
 
 
