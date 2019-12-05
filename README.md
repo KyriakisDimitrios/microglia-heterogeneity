@@ -92,8 +92,8 @@ We filtered out the fourth cluster from the further analysis. Then we performed 
     <img src="Plots/DF_Micro_Seurat.png" alt="some text" width=45%>
     <img src="Plots/DF_Micro_Monocle.png" alt="some text" width=45%>
     <figcaption><b>Fig.?:</b> Heatmap of the differentially expressed genes. 
-    <b>a)</b> Differentially expression analysis between the microglia subpopulations using Seurat order on the average logfc. 
-    <b>b)</b> Differentially expression analysis between the microglia subpopulations using Seurat order on the average qvalue.</figcaption>
+    <b>a)</b> Differentially expression analysis between the microglia subpopulations using Seurat. 
+    <b>b)</b> Differentially expression analysis between the microglia subpopulations using Seurat.</figcaption>
 </figure>
 <br><br><br>
 Also, I selected these genes to see the expression of them. Clearly there is a pattern. In monocle some of them poped up as df using the qvalue as criterion of significance, and thery are not the top ones.
@@ -121,7 +121,7 @@ P2RY121  0.0021027255 0.05468595 0.940 0.738         1       4   P2RY12 0.212250
 
 <figure>
     <img src="Plots/DF_Cond_Micro_Seurat.png" alt="some text" width=45%>
-    <figcaption>Fig.2: Heatmap of the differentially expressed genes between brain regions order by logfoldChange.</figcaption>
+    <figcaption>Fig.2: Heatmap of the differentially expressed genes between brain regions.</figcaption>
 </figure>
 
 
