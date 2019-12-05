@@ -101,17 +101,20 @@ Also, I selected these genes to see the expression of them. Clearly there is a p
 <img src="Plots/Barplot_Homeostatic.png" alt="some text" width=45%>
 
 USING MONOCLE<br>
-       "status"    "family"    "pval"  "qval"  "gene_short_name"<br>
-"LGMN"  "OK"    "negbinomial.size"  8.31768090541528e-06    0.00319517770780881 "LGMN"<br>
-"P2RY12"    "OK"    "negbinomial.size"  5.28026686435796e-06    0.0022901028384288  "P2RY12"<br>
-"FCRLS" "OK"    "negbinomial.size"  9.85748011699133e-08    6.97546421962886e-05    "FCRLS"<br>
-"CSF1"  "OK"    "negbinomial.size"  2.09939470193106e-06    0.00104542080620234 "CSF1"<br>
+  status           family         pval         qval gene_short_name cluster avg_logFC
+18     OK negbinomial.size 1.024243e-07 7.649955e-05           FCRLS       2 0.5152343<br>
+33     OK negbinomial.size 8.344491e-06 3.399495e-03            LGMN       2 0.2808261<br>
+35     OK negbinomial.size 1.137905e-05 4.370856e-03          P2RY12       2 0.4344634<br>
+
 <br><br>
 USING SEURAT<br>
 "p_val" "avg_logFC" "pct.1" "pct.2" "p_val_adj" "cluster"   "gene"  "qvalue" <br>
 
-0.00617135162185148 0.404239157791022   0.711   0.709   1   "2" "LGMN"  0.129730086103788<br>
-
+FCRLS    0.0044853224 0.60979248 0.717 0.516         1       2    FCRLS 0.3163782<br>
+FCRLS1   0.0002867274 0.08859532 0.860 0.475         1       4    FCRLS 0.0642556<br>
+MARCKSL1 0.0026819585 0.89271831 0.137 0.019         1       3 MARCKSL1 0.2372475<br>
+P2RY12   0.0096385813 0.40286161 0.906 0.745         1       2   P2RY12 0.4044896<br>
+P2RY121  0.0021027255 0.05468595 0.940 0.738         1       4   P2RY12 0.2122506<br>
 
 
 #### Differential Expression Between Conditions
