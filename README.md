@@ -68,9 +68,8 @@ In order to recover the cell type identity of each cluster we performed one unsu
 
 
 ### Microglia Subpopulations
-(**Folder: Microglia_Analysis_intergraded**)
-Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia.
-We re calculate the most variable genes only in microglia population and then re-project and cluster these cells. (**Folder: Microglia_Analysis_intergraded**)
+(**Folder: Microglia_Analysis**)
+Since we focus here on the microglia, we subset the data and keep only the cells that were identified as microglia. We re calculate the most variable genes only in microglia population and then re-project and cluster these cells. (**Folder: Microglia_Analysis**)
 This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) seems to express also oligodendrocyte markers. This also supported by the assignment of the cell identities using garnett.
 
 **&ast;<span style="color:red">The differential expression analysis was based on counts and not on the intergraded data, as suggesterd in https://satijalab.org/seurat/faq.html FAQ4</span>.**
@@ -84,9 +83,10 @@ This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) s
     <b>b)</b> Differentially expression analysis between the microglia subpopulations.</figcaption>
 </figure>
 
-We filtered out the fourth cluster from the further analysis. Then we performed differential expression analysis between the clusters and the brain regions (Fig2, b). 
+We filtered out the fourth cluster from the further analysis. Then we reprojected with two different ways. The first using RNA counts and one using the Intergrated data (suggested).
+Then we performed differential expression analysis between the clusters and the brain regions (Fig2, b). 
 
-
+### Reproject using Counts
 #### Differential Expression Between Clusters
 <figure>
     <img src="Plots/DF_Micro_Seurat.png" alt="some text" width=45%>
@@ -129,9 +129,47 @@ USING SEURAT<br>
     <figcaption>Fig.2: Heatmap of the differentially expressed genes between brain regions.</figcaption>
 </figure>
 
+#### APOE
+<img src="Plots/APOE.png" alt="some text" width=45%>
 
 
-### Another workflow
-WE used also the counts (which is not suggested) in order to project the data. This analysis is in the Folder (**Folder: Microglia_Analysis_counts**)
 
 
+
+### Reproject using Intergrated
+#### Differential Expression Between Clusters
+<figure>
+    <img src="Plots/DF_Micro_Seurat2.png" alt="some text" width=45%>
+    <img src="Plots/DF_Micro_Monocle2.png" alt="some text" width=45%>
+    <figcaption><b>Fig.?:</b> Heatmap of the differentially expressed genes. 
+    <b>a)</b> Differentially expression analysis between the microglia subpopulations using Seurat. 
+    <b>b)</b> Differentially expression analysis between the microglia subpopulations using Seurat.</figcaption>
+</figure>
+
+USING MONOCLE<br>
+"95"  "OK"  "negbinomial.size"  0.000446390461852046  0.0631930483073759  "LGMN"  "2" 0.35446083096855
+"112" "OK"  "negbinomial.size"  0.000528687200958001  0.0672706468676459  "P2RY12"  "2" 0.446555222869192
+"188" "OK"  "negbinomial.size"  0.00239210984441033 0.167196347203629 "FCRLS" "2" 0.334943881552685
+"1137"  "OK"  "negbinomial.size"  0.0344099184213774  0.40632487394412  "MARCKSL1"  "3" 0.0662047100564074
+
+<br><br>
+USING SEURAT<br>
+"p_val" "avg_logFC" "pct.1" "pct.2" "p_val_adj" "cluster"   "gene"  <br>
+0.438801091359106 0.220772678403435 0.059 0.04  1 "1" "MARCKSL1"
+0.013009652836217 0.373079024728738 0.712 0.715 1 "2" "LGMN"
+0.262720171117617 0.410522824906289 0.55  0.577 1 "2" "FCRLS"
+0.630789328652911 0.419980206982374 0.762 0.8 1 "2" "P2RY12"
+0.0688711980529796  0.439556026513453 0.111 0.03  1 "3" "MARCKSL1"
+
+
+
+#### Differential Expression Between Conditions
+
+<figure>
+    <img src="Plots/DF_Cond_Micro_Seurat2.png" alt="some text" width=45%>
+    <figcaption>Fig.2: Heatmap of the differentially expressed genes between brain regions.</figcaption>
+</figure>
+
+
+#### APOE
+<img src="Plots/APOE2.png" alt="some text" width=45%>
