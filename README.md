@@ -86,7 +86,7 @@ This revealed four different clusters (Fig2, a). The minor cluster (cluster 4) s
 We filtered out the fourth cluster from the further analysis. Then we reprojected with two different ways. The first using RNA counts and one using the Intergrated data (suggested).
 Then we performed differential expression analysis between the clusters and the brain regions (Fig2, b). 
 
-### Reproject using Counts
+### Reproject using Counts (**folder**microglia-heterogeneity/Microglia_Analysis/Reanalysis_counts)
 #### Differential Expression Between Clusters
 <figure>
     <img src="Plots/DF_Micro_Seurat.png" alt="some text" width=45%>
@@ -136,7 +136,7 @@ USING SEURAT<br>
 
 
 
-### Reproject using Intergrated
+### Reproject using Intergrated (**folder**microglia-heterogeneity/Microglia_Analysis/Reanalysis)
 #### Differential Expression Between Clusters
 <figure>
     <img src="Plots/DF_Micro_Seurat2.png" alt="some text" width=45%>
