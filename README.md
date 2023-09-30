@@ -1,5 +1,6 @@
 # Mouse microglia regional heterogeneity in single cell resolution
 
+[![DOI](https://zenodo.org/badge/536983198.svg)](https://zenodo.org/badge/latestdoi/536983198)
 
 
 ### RNA-seq analysis
@@ -22,9 +23,9 @@ Figures can be recreated without the need of preprocessing the data. **NOT READY
 ### Citation
 
 Please refer to the following research article when using data from this repository:
+https://doi.org/10.3389/fimmu.2021.639613
 
-O. Uriarte
-
+Oihane Uriarte Huarte, Dimitrios Kyriakis, Tony Heurtaux, Yolanda Pires-Afonso, Kamil Grzyb, Rashi Halder, Manuel Buttini, Alexander Skupin, Michel Mittelbronn, Alessandro Michelucci
 
 ## Overview
 
